@@ -5,7 +5,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
@@ -13,11 +12,30 @@
     <title>Hello, world!</title>
 </head>
 
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4"></div>
+<body class="signin-body">
+    <div class="container signin-container">
+        <div class="card">
+            <div class="card signin-card">
+                <div class="card-block">
+                    <img class='image-fluid signin-image' src="https://dynamic.brandcrowd.com/asset/logo/cbb0b2e5-dc04-4383-937d-8a48ef4d93fd/logo?v=4" alt="temporary logo">
+                    <form class="signin-form">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign-In</button>
+                      </form>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -29,7 +47,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="../bootstrap-4.5.0-dist/js/bootstrap.min.css"></script>
+    <script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
