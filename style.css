@@ -1,0 +1,13 @@
+.container-fluid{
+    background-color: cadetblue;
+    height: 5rem;
+}
+.row{
+    background-color: cyan;
+    height: 3rem;
+}
+[class*='col-'] {
+    background-color: darkorchid;
+    height: 2rem;
+    border: 2px solid;
+}
