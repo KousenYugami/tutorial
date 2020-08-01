@@ -1,0 +1,38 @@
+// Variables
+$brand-main:            #6600cc
+$brand-sub:             #cc66ff
+$brand-dark:            #333
+$brand-light:           #e6f2ff
+
+// Mix-ins
+=shaping($height, $width, $rad, $color, $bg)
+    height: $height
+    width: $width
+    border-radius: $rad
+    background-color: $bg
+    color: $color
+
+// Styles
+body
+    background-color: $brand-light
+
+section
+    background: $brand-sub
+    width: 780px
+    margin: auto
+    color: $brand-dark
+    padding: 20px
+    border-radius: 8px
+
+h1
+    text-align: center
+    padding-top: 20px
+
+.thumb1
+    +shaping(auto, 50%, 0%, $brand-light, $brand-dark)
+    text-align: center
+    layout: block
+    margin: auto
+    
+
+

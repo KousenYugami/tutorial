@@ -1,28 +1,26 @@
-body.signin-body {
-    background-color: gainsboro;
-}
+body {
+  background-color: #e6f2ff; }
 
-.container.signin-container {
-    margin-top: 8%;
-    margin-bottom: 8%;
-}
+section {
+  background: #cc66ff;
+  width: 780px;
+  margin: auto;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px; }
 
-.card.signin-card {
-    padding: 40px 10px 40px;
-    border: 2px solid rgba(0, 0, 0, .5);;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-}
+h1 {
+  text-align: center;
+  padding-top: 20px; }
 
-.image-fluid.signin-image{
-    width: 40%;
-    padding: 0rem 2rem 2rem;
-    margin: auto;
-    display: block;
-}
-.signin-form{
-    margin: auto;
-    max-width: 75%;
-}
-.btn.btn-primary{
-    max-width: 100%;
-}
+.thumb1 {
+  height: auto;
+  width: 50%;
+  border-radius: 0%;
+  background-color: #333;
+  color: #e6f2ff;
+  text-align: center;
+  layout: block;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
